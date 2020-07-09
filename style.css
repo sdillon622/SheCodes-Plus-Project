@@ -30,3 +30,13 @@ body{
     display: block;
     text-align: center;
 }
+.conversion{
+    display: block;
+}
+.weather-description{
+    text-transform: capitalize;
+}
+li{
+    list-style: none;
+    text-align: center;
+}

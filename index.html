@@ -36,28 +36,41 @@
           </div>
         </form>
         <h1 id="city">Townsville</h1>
-        <span id="date" class="date">Today's Date</span>
-        <h2 id="temperature">25°C/F</h2>
-        <br />
-       <span class="weather"> 
-        <div class="col-12" id="description">
+        <span id="date">Today</span>
+        <h2 id="temperature"></h2>
+       
+        <span class="weather"> 
+        <div class="row">
+            <div class="col-12">     
+                <span class="conversion">
+                
+                     <a href="#" id="celsius-link" class="active">°C</a> |
+                    <a href="#" id="fahrenheit-link">°F</a>
+                </span>
+              </div>
+              <br />
+          <div class="col-12" >
+            <img src="" alt="Clear" id="icon" />
+          </div>
+          <br />
+        <span class="col-12" id="description" class="weather-description">
             Weather Description
-        </div>
-        <div class="col-12" id="icon">
-            ⛈️
-        </div>
-        <div class="col-12 id="precipitation> 
-            Precipitation
-        </div>
-        <div class="col-12" id="speed">
-            Wind Speed
-        </div>
+        </span>
+
+        <span class="col-12">
+          Humidity (%):  <span id="humidity"></span>
+        </span>
+        
+        <span class="col-12">
+            Wind Speed (kph): <span id="wind"></span>
+        </span>
     </span>
+    
       </div>
       <br />
       <footer>
         See code <a href="https://github.com/sdillon622/final-final">here </a>
       </footer>
-<script src="index.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
